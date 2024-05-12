@@ -1,5 +1,5 @@
 {% set name = "ucs-detect" %}
-{% set version = "0.0.4" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace("-", "_") }}-{{ version }}.tar.gz
-  sha256: 99e718ea9a89c7da520ac318fa596025507431eb219b9a50c78803150e8a5fc1
+  sha256: dbfdc4cb838c0328b43f6da6de28853e20de4597109daa2c901a8a625aaef50e
 
 build:
   noarch: python
